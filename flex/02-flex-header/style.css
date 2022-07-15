@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -22,4 +25,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* I have a lot of extra code but I made it work! */
+.left-links ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 5px;
+  gap: 10px
+}
+
+.right-links ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 5px;
+  gap: 10px
 }
