@@ -64,3 +64,24 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Added styles down here so they were easy to find */
+.modal{
+  padding: 10px;
+}
+
+.row-one{
+  display: flex;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+/*nope*/
+.right{
+  justify-content: right;
+}
